@@ -45,3 +45,17 @@ for (let i = 0; i < books.length; i += 1) {
   const divider = document.createElement('hr');
   listItem.appendChild(divider);
 }
+
+const remBtnList = Array.from(document.getElementsByClassName('remove-button'));
+
+const filterBooks = (i) => {
+  books = books.filter((book) => book !== books[i]);
+  localStorage.setItem('booksData', JSON.stringify(books));
+  window.location.reload();
+};
+
+for (let i = 0; i < remBtnList.length; i += 1) {
+  remBtnList[i].addEventListener('click', () => {
+    filterBooks(i);
+  });
+}
