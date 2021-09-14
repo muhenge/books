@@ -12,7 +12,7 @@
 
 # Getting Started
   - Use your github account and your terminal to clone this repository to your computer:
-  - git clone https://github.com/alonsofl/awesome-books.git
+  - git clone https://github.com/muhenge/books.git
   - Go to the cloned directory: cd awesome-books
 
 
