@@ -8,7 +8,7 @@
 - JavaScript
 
 # live Demo 
-- [Awesome-books](https://alonsofl.github.io/awesome-books/)
+- [Awesome-books](https://yesbooks.netlify.app/)
 
 # Getting Started
   - Use your github account and your terminal to clone this repository to your computer:
