@@ -1,6 +1,8 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable no-use-before-define */
+/* eslint-disable no-undef */
+/* eslint-disable prefer-destructuring */
 
 class Book {
   constructor(title, author) {
