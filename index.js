@@ -53,7 +53,6 @@ for (let i = 0; i < listedBooks.books.length; i += 1) {
   bookList.appendChild(listItem);
 }
 
-
 form.addEventListener('submit', listedBooks.addBook);
 bookList.addEventListener('click', listedBooks.filterBooks);
 
@@ -65,10 +64,9 @@ if (bookItem.length === 0) {
   bookList.remove();
 }
 
-
 // Time
 
-const {DateTime} = luxon;
+const { DateTime } = luxon;
 const time = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 const timeSection = document.getElementById('time');
 timeSection.innerText = time;
