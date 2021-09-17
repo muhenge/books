@@ -102,9 +102,3 @@ body {
   transition: all 100ms ease;
   align-self: flex-end;
 }
-
-.add-book {
-  align-self: center;
-  margin-bottom: 12px;
-  font-size: 1.2rem;
-}
