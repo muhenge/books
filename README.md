@@ -9,7 +9,7 @@
 - CSS
 
 # live Demo 
-- [Awesome-books](https://yesbooks.netlify.app/)
+- [Awesome-books](https://book-nav.netlify.app/)
 
 # Getting Started
   - Use your github account and your terminal to clone this repository to your computer:
